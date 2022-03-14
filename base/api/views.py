@@ -20,4 +20,4 @@ def voting_data(request):
         'fullstack': fullstack,
     }
 
-    return Response(serializer.data)
+    return Response(data)
